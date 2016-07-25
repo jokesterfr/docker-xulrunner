@@ -2,7 +2,7 @@ version: '2'
 
 services:
   xulrunner:
-    image: jokester/xulrunner
+    image: jokesterfr/xulrunner
     container_name: xulrunner
     devices:
       - "/dev/input:/dev/input"
