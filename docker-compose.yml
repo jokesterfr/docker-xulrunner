@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  xulrunner:
+    image: jokester/xulrunner
+    container_name: xulrunner
+    devices:
+      - "/dev/input:/dev/input"
+    volumes:
+      - /tmp/.docker.xauth:/tmp/.docker.xauth
+      - /tmp/.X11-unix:/tmp/.X11-unix
